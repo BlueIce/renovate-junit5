@@ -4,4 +4,5 @@ repositories {
 
 dependencies {
 	testImplementation(platform('org.junit:junit-bom:5.10.1'))
+	testRuntimeOnly('com.h2database:h2:2.3.230')
 }
