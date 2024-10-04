@@ -5,5 +5,5 @@ repositories {
 dependencies {
 	testImplementation(platform('org.junit:junit-bom:5.10.1'))
 	testRuntimeOnly('com.h2database:h2:2.3.230')
-	testImplementation('net.jqwik:jqwik:1.8.5')
+	testImplementation('net.jqwik:jqwik:1.9.1')
 }
